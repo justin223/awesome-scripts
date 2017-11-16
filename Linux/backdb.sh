@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # Database credentials
-DBUSER="blah"
-DBPWD="blahblahblah"
-HOST="127.0.0.1"
+DBUSER='blah'
+DBPWD='blahblahblah'
+HOST='127.0.0.1'
 DB_NAME=(db1 db2)
 
 # Other options
-BACK_PATH="/path/to/your/backpath"
+BACK_PATH='/path/to/your/backpath'
 
 # Do the work
 for i in "${DB_NAME[@]}"
