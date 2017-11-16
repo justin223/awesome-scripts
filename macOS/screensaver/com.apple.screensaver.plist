@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CleanExit</key>
+	<string>YES</string>
+	<key>PrefsVersion</key>
+	<integer>100</integer>
+	<key>askForPassword</key>
+	<integer>1</integer>
+	<key>askForPasswordDelay</key>
+	<integer>0</integer>
+	<key>idleTime</key>
+	<integer>300</integer>
+	<key>moduleDict</key>
+	<dict>
+		<key>moduleName</key>
+		<string>iLifeSlideshows</string>
+		<key>path</key>
+		<string>/System/Library/Frameworks/ScreenSaver.framework/Resources/iLifeSlideshows.saver</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>tokenRemovalAction</key>
+	<integer>0</integer>
+</dict>
+</plist>
