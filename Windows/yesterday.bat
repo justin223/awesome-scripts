@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM get yesterday's date of parameter #1: %1
-REM REMoveq qoutes from parameter by saying ~
+REM remove qoutes from parameter by saying ~
 SET lastday=%~1
 
 SET yyyy=
