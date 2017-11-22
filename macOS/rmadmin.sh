@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Revoke administrative privileges from user $1 on macOS
+
 # get user '$1' UUID
 USERID=`dscl . list /Users GeneratedUID | grep -v ^_.* | grep $1 | awk '{print $2}'`
 
