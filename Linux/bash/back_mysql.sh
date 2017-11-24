@@ -18,7 +18,7 @@ do
     $MYSQLDUMP --user=$DBUSER --password=$DBPWD --host=$HOST $i | $GZIP > $BACKUP_DIR/MySQL_$i_$DATETIME.sql.gz
 done
 
-# TODO Upload backups to external storage, e.g., NAS, FTP or NFS server
+# Upload backups to external storage, e.g., NAS, FTP or NFS server
 mkdir /mnt/cptemp
 mount -t nfs 1.2.3.4:/nfsshare /mnt/cptemp
 # or CIFS share
