@@ -21,4 +21,4 @@ function mailout() {
     done
 }
 
-df -h | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{print $5 " " $1' | mailout
+df -h | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{print $5 " " $1}' | mailout
